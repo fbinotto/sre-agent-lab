@@ -27,7 +27,7 @@ If you want to use GitHub:
 
     ```
     gh auth login
-    gh repo fork dm-chelupati/grubify --clone=false
+    gh repo fork fbinotto/grubify --clone=false
     ```
 
     Follow the browser prompts to sign in. Select **HTTPS** when asked.
@@ -164,7 +164,7 @@ In this section you will clone the lab repository and deploy all Azure resources
 1. [] Clone the lab repo and navigate into it:
 
     ```
-    git clone https://github.com/dm-chelupati/sre-agent-lab.git
+    git clone https://github.com/fbinotto/sre-agent-lab.git
     cd sre-agent-lab
     ```
 
@@ -701,7 +701,7 @@ All of this was set up with a single `azd up` command.
 
 - [Azure SRE Agent Documentation](https://sre.azure.com/docs)
 - [Azure SRE Agent Portal](https://sre.azure.com)
-- [Grubify Sample App](https://github.com/dm-chelupati/grubify)
-- [Lab Source Code](https://github.com/dm-chelupati/sre-agent-lab)
+- [Grubify Sample App](https://github.com/fbinotto/grubify)
+- [Lab Source Code](https://github.com/fbinotto/sre-agent-lab)
 
 **Thank you for completing this lab, @lab.User.FirstName!**

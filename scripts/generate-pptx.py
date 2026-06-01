@@ -295,7 +295,7 @@ add_text_box(slide, 1, 3, 11, 1, "Open your lab instructions and follow along", 
 links = [
     ("Portal", "sre.azure.com"),
     ("Documentation", "sre.azure.com/docs"),
-    ("Lab Repo", "github.com/dm-chelupati/sre-agent-lab"),
+    ("Lab Repo", "github.com/fbinotto/sre-agent-lab"),
 ]
 y = 4.5
 for label, url in links:
@@ -313,7 +313,7 @@ add_text_box(slide, 0.8, 0.4, 11, 0.8, "Resources", 36, DARK_BLUE, True)
 resources = [
     ("SRE Agent Portal", "sre.azure.com"),
     ("Documentation", "sre.azure.com/docs"),
-    ("Lab Source Code", "github.com/dm-chelupati/sre-agent-lab"),
+    ("Lab Source Code", "github.com/fbinotto/sre-agent-lab"),
     ("Blog", "aka.ms/sreagent/blog"),
     ("Samples", "github.com/microsoft/sre-agent/tree/main/samples"),
 ]
